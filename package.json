@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "cd client && npm start",
+    "start:server": "nodemon server.js",
+    "start": "node server.js",
+    "dev": "concurrently npm:start:*"
+  },
+  "keywords": [
+    "\"server\""
+  ],
+  "author": "\"bui thanh\"",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^2.0.20"
+  }
+}

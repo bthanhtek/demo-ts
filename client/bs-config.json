@@ -1,0 +1,7 @@
+{
+    "port": 8000,
+    "files": ["./src/views/**/**/*.{html,htm,css,js}", "./src/views/js/**/*.{js}"],
+    "server": { "baseDir": ["./src/views","./"]
+
+   }
+  }

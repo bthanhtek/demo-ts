@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-auto h-full p-[10px] rounded-xl m-[10px] shadow-md bg-red">
+      <div class="flex flex-row">
+        <div class="basis-3/4">
+          <div class="grid grid-cols-4 grap-4" id="list"></div>
+        </div>
+        <div class="basis-1/4">
+          <div class="title">
+            <h3
+              class="w-full h-30px text-xl font-semibold tracking-tight text-gray-900 dark:text-white text-center border-b-indigo-500 border-4"
+            >
+              Cart
+            </h3>
+          </div>
+          <div class="containers" id="listCart"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="js/controllers/controller.js"></script>
+  </body>
+</html>

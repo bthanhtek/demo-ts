@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Violet Evergradent",
+    "price": "583",
+    "image": "./assets/violet.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Tanjiro",
+    "price": "53",
+    "image": "./assets/tanjiro.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Nezko",
+    "price": "83",
+    "image": "./assets/ne.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Songoku",
+    "price": "12",
+    "image": "./assets/songoku.jpg"
+  }
+]
